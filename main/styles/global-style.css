@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+/* Estilização - Cabeçalho */
+
+header{
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .titleOne{
+    color: #D6000D;
+    font-weight: bold;
+    margin: 1.5% 2%; 
+    font-style: italic;
+}
+
+header nav{
+    position: absolute;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    right: 0;
+    margin: 0.7% 2%; 
+}
+header nav ul{
+    list-style-type: none;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+    margin: 8px;
+    width: 5vw;
+    height: 5vh;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+}
+header nav ul #login{
+    background: #D6000D;
+    color: #fff;
+    width: 110px;
+    height: 20px;
+    border-radius: 8px;
+}
+
+/* Estilização - Primeira Section */
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 240vh;
+}
+
+main .firstSection{
+    margin: 4% 0 0 0;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main .firstSection .image{
+    width: auto;
+    height: auto;
+    margin: 10px 50px;
+}
+main .firstSection #firstImage{
+    width: 400px;
+    height: auto;
+}
+
+main .firstSection .content{
+    position: relative;
+    margin: 52px 0 0 30px;
+    height: 140px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+main .firstSection .content p{
+    font-size: 15pt;
+    font-weight: bold;
+}
+main .firstSection .content h1{
+    font-size: 35pt;
+    color: #D6000D;
+}
+main .firstSection .content button{
+    position: absolute;
+    width: 245px;
+    height: 42px;
+    top: 160px;
+    background: #D6000D;
+    color: #fff;
+    border-radius: 8px;
+    border: 0;
+    font-size: 14.5pt;
+    font-weight: 500;
+    transition: all .5s;
+}
+main .firstSection .content button:hover{
+    background: #8f000a;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+/* Estilização - Segunda Section */
+
+main .secondSection{
+    background: ;
+}
+main .thirdSection{
+
+}
