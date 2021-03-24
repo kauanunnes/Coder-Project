@@ -225,8 +225,47 @@ main .secondSection #secondImage{
     
 }
 
-
-
+/* Estilização - Terceira seção */
 main .thirdSection{
+    width: 100vw;
+    height: auto;
+    margin: 8% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+main .thirdSection .profile{
+    margin: 3% 0 0 0;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #D6000D;
+    border-radius: 100%;
+}
+main .thirdSection .comments{
+    position: relative;
+    padding: 20px;
+    margin: 50px;
+    width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background: #d8d8d8;
+    border-radius: 8px;
+}
 
+main .thirdSection .informationDetails{
+    margin: 0 0 0 25%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .thirdSection .informationDetails p{
+    font-size: 10.5pt;
+}
+main .thirdSection .informationDetails h2{
+    font-weight: 500;
+    margin: 2% 0 0 0;
 }
